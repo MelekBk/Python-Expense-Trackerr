@@ -14,7 +14,7 @@ def show_expenses():
         print("Aucune depense enregistree.")
         return
     for number, expense in enumerate(expenses, start=1):
-        print(f"{number}. {expense['description']} - "
+        print(f"{number}. {expense['description']} ---- "
               f"{expense['amount']:.2f}")
 
 def show_total():
